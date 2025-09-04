@@ -12,7 +12,7 @@ class BaseService(ABC):
     @abstractmethod
     def add_book(self, book: Book) -> None:
         ...
-
+    
     @abstractmethod
     def remove_book(self, title: str) -> None:
         ...
